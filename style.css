@@ -1,47 +1,62 @@
 body {
-    background-color: rgb(54, 17, 63);
-    color: white;
-    font-family: "Chakra Petch", sans-serif;
-    margin: 0px;
+background-color: rgb(54, 17, 63); /* Roxo profundo para destacar o vermelho do morango */
+color: white;
+font-family: "Chakra Petch", sans-serif;
+margin: 0;
 }
 
 h1 {
-    font-size: 40px;
+font-size: 40px;
 }
 
-p{
-    font-size: 20px;
+p {
+font-size: 20px;
 }
 
 header {
-    border-bottom: solid 2px rgb(154, 44, 194);
-    padding: 20px;
-    font-size: 32px;
-    color: rgb(154, 44, 194);
+border-bottom: solid 2px rgb(255, 0, 85); /* Vermelho vibrante */
+padding: 20px;
+font-size: 32px;
+color: rgb(255, 0, 85);
+text-align: center;
+font-weight: bold;
 }
 
 .chamada {
-    background: rgb(226, 149, 245);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
+background: rgb(255, 182, 193); /* Rosa suave */
+padding: 80px 0;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
 }
+
 .chamada-texto {
-    margin-right: 5%;
+margin-right: 5%;
+max-width: 400px;
 }
 
-img{
-    height: 200px;
+img {
+height: 200px;
+border-radius: 10px;
+transition: transform 0.3s ease;
 }
 
-.categoria-videos{
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
+img:hover {
+transform: scale(1.05);
 }
 
-.categoria{
-    padding-left: 20px;
-    padding-right: 20px;
+.categoria-videos {
+display: flex;
+overflow-x: auto;
+gap: 10px;
+padding-bottom: 20px;
+}
+
+.categoria {
+padding: 20px;
+}
+
+h2 {
+color: rgb(255, 105, 180);
 }
